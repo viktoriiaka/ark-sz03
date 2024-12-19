@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poziomy rzek</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <nav>
+        <header class="baner1"> <img src="obraz1.png" alt="Mapa Polski"></header>
+        <header class="baner2"><h1>„Rzeki w województwie dolnośląskim</h1></header>
+    </nav>
+    <section class="menu">
+    <form>
+        <label class="opcje">
+            <input type="radio" name="poziom" value="wszystkie" checked>
+            Wszystkie
+        </label>
+        <label class="opcje">
+            <input type="radio" name="poziom" value="ostrzegawczy">
+            Ponad stan ostrzegawczy
+        </label>
+        <label class="opcje">
+            <input type="radio" name="poziom" value="alarmowy">
+            Ponad stan alarmowy
+        </label>
+        <button type="submit" name="pokaz">Pokaż</button>
+    </form>
+</section>
+    <main>
+        <section class="lewo">
+            <h3>Stany na dzień 2022-05-05</h3>
+            <table>
+                <tr>
+                    <th>Wodomierz</th>
+                    <th>Rzeka</th>
+                    <th>Ostrzegawczy</th>
+                    <th>Alarmowy</th>
+                    <th>Aktualny</th>
+                </tr>
+            </table>
+        </section>
+        <section class="prawo">
+            <h3>Informacje</h3>
+            <ul>
+                <li>Brak ostrzeżeń o burzach z gradem</li>
+                <li>Smog w mieście Wrocław</li>
+                <li>Silny wiatr w Karkonoszach</li>
+            </ul>
+            <h3>Średnie stany wód</h3>
+            <img src="obraz2.jpg" alt="rzeka">
+        </section>
+    </main>
+    <footer> <p>Stronę wykonał: Viktoriia Karpenko</p></footer>
+</body>
+</html>

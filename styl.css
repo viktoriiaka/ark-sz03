@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+}
+nav {
+    display: flex;
+}
+header{
+    background-color: Navy;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 50%;
+}
+.menu{
+    background-color: Navy;
+    padding: 20px;
+}
+.opcje {
+    color: Silver;
+    margin: 50px;
+}
+.opcje:hover {
+    color: white;
+    text-decoration: underline;
+}
+main {
+    display: flex;
+}
+.lewo,
+.prawo {
+    background-color: azure;
+    height: 550px;
+}
+.lewo{
+    width: 70%;
+}
+table {
+    border: 1px solid Navy;
+    margin: auto;
+    width: 70%;
+}
+tr:hover {
+    background-color: SkyBlue;
+}
+.prawo {
+    width: 30%;
+}
+.prawo img {
+    width: 90%;
+}
+
+footer {
+    background-color: Navy;
+    color: white;
+}
+
+
